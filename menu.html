@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Page author -->
+  <meta name="author" content="Taban Faiz">
+  <!-- SEO description -->
+  <meta name="description" content="Foodie Hub – Discover restaurants, browse menus, and order your favorite meals online. Simple, fast, and delicious.">
+  <!-- Page title -->
+  <title>Menu | Foodie Hub</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Favicon icon -->
+  <link rel="icon" href="Images/image.ico.png" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!--Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+  <!-- Main CSS file -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container">
+    <!-- Logo text -->
+    <a class="navbar-brand" href="index.html"><i class="fas fa-store me-2"></i>Foodie Hub</a>
+    <!-- Toggle button for mobile menu -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Collapsible menu links -->
+    <div class="collapse navbar-collapse" id="navbarNav"> 
+      <ul class="navbar-nav ms-auto">
+        <!-- Home link -->
+        <li class="nav-item">
+          <a class="nav-link " href="index.html"><i class="fas fa-home me-1"></i>Home</a>
+        </li>
+        <!-- Restaurants link -->
+        <li class="nav-item">
+          <a class="nav-link" href="restaurants.html"><i class="fas fa-utensils me-1"></i>Restaurants</a>
+        </li>
+        <!-- Menu link -->
+        <li class="nav-item">
+          <a class="nav-link active"aria-current="page" href="menu.html"><i class="fas fa-list me-1"></i>Menu</a>
+        </li>
+        <!-- About link -->
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><i class="fas fa-info-circle me-1"></i>About</a>
+        </li>
+        <!-- Contact link -->
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><i class="fas fa-envelope me-1"></i>Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Menu Section -->
+<section class="py-5">
+  <div class="container">
+ <h3 class="display-4 fw-bold text-center">Delicious Selections</h3>
+    <!-- Pizza Place -->
+    <section id="la-pizza" class="mb-5">
+      <h2 class="mb-4"><i class="fas fa-pizza-slice me-1"></i>La Pizzeria</h2>
+      <div class="row g-4">
+        <!-- Food Card 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/pizza1.jpg" class="card-img-top" alt="Pepperoni Pizza">
+            <div class="card-body">
+              <h5 class="card-title">Pepperoni Pizza</h5>
+              <p class="card-text">$12.99</p> 
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/pizza2.jpg" class="card-img-top" alt="Margherita Pizza">
+            <div class="card-body">
+              <h5 class="card-title">Margherita Pizza</h5>
+              <p class="card-text">$10.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/pizza3.jpg" class="card-img-top" alt="Veggie Pizza">
+            <div class="card-body">
+              <h5 class="card-title">Veggie Supreme Pizza</h5>
+              <p class="card-text">$11.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 4 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/pizza4.jpg" class="card-img-top" alt="BBQ Chicken Pizza">
+            <div class="card-body">
+              <h5 class="card-title">BBQ Chicken Pizza</h5>
+              <p class="card-text">$13.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Burger -->
+    <section id="Urban-burger" class="mb-5">
+      <h2 class="mb-4"> <i class="fas fa-hamburger me-1"></i>Urban Burger Co.</h2>
+      <div class="row g-4">
+        <!-- Food Card 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/burger1.jpg" class="card-img-top" alt="Cheeseburger">
+            <div class="card-body">
+              <h5 class="card-title">Cheeseburger</h5>
+              <p class="card-text">$8.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/burger2.jpg" class="card-img-top" alt="Bacon Burger">
+            <div class="card-body">
+              <h5 class="card-title">Bacon Burger</h5>
+              <p class="card-text">$9.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/burger3.jpg" class="card-img-top" alt="Veggie Burger">
+            <div class="card-body">
+              <h5 class="card-title">Veggie Burger</h5>
+              <p class="card-text">$7.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 4 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/burger4.jpg" class="card-img-top" alt="Double Burger">
+            <div class="card-body">
+              <h5 class="card-title">Double Burger</h5>
+              <p class="card-text">$10.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- indian -->
+    <section id="spicy-indian" class="mb-5">
+      <h2 class="mb-4"><i class="fas fa-pepper-hot me-1"></i>Spice Route India</h2>
+      <div class="row g-4">
+        <!-- Food Card 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/indian1.jpg" class="card-img-top" alt="Spicy chicken tikka masala curry">
+            <div class="card-body">
+              <h5 class="card-title">Chicken Tikka Masala</h5>
+              <p class="card-text">$12.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/indian2.jpg" class="card-img-top" alt=" Paneer butter masala with sauce">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Butter Masala</h5>
+              <p class="card-text">$10.49</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/indian3.jpg" class="card-img-top" alt="Indian vegetable biryani rice">
+            <div class="card-body">
+              <h5 class="card-title">Vegetable Biryani</h5>
+              <p class="card-text">$9.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 4 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/indian4.jpg" class="card-img-top" alt="Lamb vindaloo curry dish">
+            <div class="card-body">
+              <h5 class="card-title">Lamb Vindaloo</h5>
+              <p class="card-text">$13.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pasta Vero -->
+    <section id="pasta-corner" class="mb-5">
+      <h2 class="mb-4"><i class="fas fa-utensils me-1"></i>Pasta Vero</h2>
+      <div class="row g-4">
+        <!-- Food Card 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/pasta1.jpg" class="card-img-top" alt="Spaghetti with bolognese sauce">
+            <div class="card-body">
+              <h5 class="card-title">Spaghetti Bolognese</h5>
+              <p class="card-text">$11.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/pasta2.jpg" class="card-img-top" alt="Creamy chicken alfredo pasta">
+            <div class="card-body">
+              <h5 class="card-title"> Chicken Alfredo Pasta</h5>
+              <p class="card-text">$12.49</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/pasta3.jpg" class="card-img-top" alt="Penne pasta with pesto sauce">
+            <div class="card-body">
+              <h5 class="card-title">Pesto Penne</h5>
+              <p class="card-text">$10.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 4 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/pasta4.jpg" class="card-img-top" alt="Linguine pasta with seafood mix">
+            <div class="card-body">
+              <h5 class="card-title">Seafood Linguin</h5>
+              <p class="card-text">$13.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Green Garden -->
+    <section id="green-garden" class="mb-5">
+      <h2 class="mb-4"><i class="fas fa-seedling me-1"></i>Green Garden</h2>
+      <div class="row g-4">
+       <!-- Food Card 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/green1.jpg" class="card-img-top" alt="Grilled vegetable wrap sandwich">
+            <div class="card-body">
+              <h5 class="card-title">Grilled Veggie Wrap </h5>
+              <p class="card-text">$8.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/green2.jpg" class="card-img-top" alt="Fresh quinoa salad with avocado">
+            <div class="card-body">
+              <h5 class="card-title">Quinoa Avocado Salad</h5>
+              <p class="card-text">$7.49</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/green3.jpg" class="card-img-top" alt="Quinoa Avocado Salad">
+            <div class="card-body">
+              <h5 class="card-title">Tofu Buddha Bowl</h5>
+              <p class="card-text">$8.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 4 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/green4.jpg" class="card-img-top" alt="Vegan lentil soup in a bowl">
+            <div class="card-body">
+              <h5 class="card-title">Vegan Lentil Soup</h5>
+              <p class="card-text">$6.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Asian -->
+    <section id="asian-foods" class="mb-5">
+      <h2 class="mb-4"><i class="fas fa-bowl-food me-1"></i>Asian Fusion</h2>
+      <div class="row g-4">
+        <!-- Food Card 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/asian1.jpg" class="card-img-top" alt="Korean kimchi fried rice with egg">
+            <div class="card-body">
+              <h5 class="card-title">Kimchi Fried Rice</h5>
+              <p class="card-text">$12.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/asian2.jpg" class="card-img-top" alt="Chinese sweet and sour chicken">
+            <div class="card-body">
+              <h5 class="card-title">Sweet & Sour Chicken</h5>
+              <p class="card-text">$10.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/asian3.jpg" class="card-img-top" alt="Chinese beef chow mein noodles">
+            <div class="card-body">
+              <h5 class="card-title">Beef Chow Mein</h5>
+              <p class="card-text">$10.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-success">Available</span>
+            </div>
+          </div>
+        </div>
+        <!-- Food Card 4 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="Images/asian4.jpg" class="card-img-top" alt="Korean bibimbap with vegetables">
+            <div class="card-body">
+              <h5 class="card-title">Bibimbap Bow</h5>
+              <p class="card-text">$13.99</p>
+              <a href="contact.html" class="btn btn-primary">Order Now</a>
+              <span class="badge bg-danger">Unavailable</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="bg-light text-dark py-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Contact Info Section -->
+      <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+        <!-- Email -->
+        <p class="mb-1">
+          <strong>Email:</strong> <a href="mailto:info@foodiehub.com" class="text-decoration-none text-dark">info@foodiehub.com</a>
+        </p>
+        <!-- Phone -->
+        <p class="mb-1">
+          <strong>Phone:</strong> <a href="tel:+127932980" class="text-decoration-none text-dark"> +49 30 12345678</a>
+        </p>
+        <!-- Address -->
+        <p class="mb-0">
+          <strong>Address:</strong> 123 Main Street, Berlin, Germany
+        </p>
+      </div>
+      <!-- Social Media Icons Section -->
+      <div class="col-md-6 text-center text-md-end">
+        <!-- Social links with Bootstrap Icons -->
+        <a href="https://github.com/taban8" class="text-dark me-3" aria-label="Github">
+          <i class="bi bi-github fs-4"></i>
+        </a>
+        <a href="https://x.com/into_taban" class="text-dark me-3" aria-label="Twitter">
+          <i class="bi bi-twitter fs-4"></i>
+        </a>
+        <a href="https://t.me/Taban_Faiz" class="text-dark me-3" aria-label="Telegram">
+          <i class="bi bi-telegram fs-4"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/taban-faiz-a76704360" class="text-dark" aria-label="LinkedIn">
+          <i class="bi bi-linkedin fs-4"></i>
+        </a>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="row mt-3">
+      <div class="col text-center text-md-start">
+        <small> &copy; 2025 Foodie Hub. All rights reserved. Designed by Taban Faiz.</small>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--Bootstrap JS Bundle-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+crossorigin="anonymous"></script>
+</body>
+</html>
